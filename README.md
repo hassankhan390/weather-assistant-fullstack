@@ -41,7 +41,5 @@ Frontend
 3. `npm run dev`
 
 ---
-Developed by [Your Name] for the PM Accelerator Team.
+Developed by HASSAN RAZA KHAN TAREEN for the PM Accelerator Team.
 
-
-You're all set! Would you like me to review the video script one last time, or are you ready to hit 'Commit' and finish this?
