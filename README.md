@@ -5,83 +5,43 @@ created for the Assessment of PM ACCELERATION
 
 
 
-# 🌌 Smart Weather Assistant & AI Insights (2026 Edition)
+🌌 PM Accelerator: Smart Weather Assistant (2026 Edition)
 
-A high-performance, full-stack weather application featuring a **Glassmorphism UI**, real-time data fetching, and persistent storage. Developed for the **AI Engineer Intern Technical Assessment** at PM Accelerator.
+A high-performance, full-stack weather application featuring **Glassmorphism UI** and **AI-driven insights**. Built for the AI Engineer Intern Technical Assessment.
 
-## 🚀 Live Demo & Video
-- **Project Walkthrough:** [INSERT YOUR LOOM/YOUTUBE LINK HERE]
-- **Repository:** `https://github.com/hassankhan390/weather-assistant-fullstack`
+🚀 Live Demo & Video
+- **Demo Video:** [INSERT YOUR LOOM/YOUTUBE LINK HERE]
+- **Key Focus:** User Experience, Data Portability, and Full CRUD.
 
----
+✨ Features
+- **Modern UI:** Midnight Purple Glassmorphism design inspired by premium weather apps.
+- **Full CRUD:**
+  - **Create:** Fetch real-time weather & 5-day forecasts.
+  - **Read:** Persistent search history dashboard.
+  - **Update:** Inline "Notes" feature to annotate weather records.
+  - **Delete:** Effortless history management.
+- **Data Export:** Download your entire search history as a CSV file.
+- **Geolocation:** One-click "Use My Location" via Browser API.
 
-## ✨ Key Features
+🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS v4, Axios.
+- **Backend:** FastAPI (Python), SQLAlchemy.
+- **Database:** SQLite (SQL).
 
-### 🎨 Premium Glassmorphism UI
-Inspired by modern mobile weather aesthetics, the interface uses:
-- **Translucent Cards:** Utilizing `backdrop-blur` and high-contrast white text for a premium feel.
-- **Responsive Layout:** A fluid experience across desktop and mobile devices.
-- **Dynamic Animations:** Smooth component entry using Tailwind CSS `animate-in`.
+📦 Local Setup
 
-### 🛠️ Full CRUD Functionality
-- **Create:** Real-time weather data retrieval via external APIs.
-- **Read:** A centralized dashboard showing the current search and a historical record table.
-- **Update:** **Inline Annotations**—users can update weather records with custom notes (e.g., "Holiday plans").
-- **Delete:** Effortless search history management with immediate UI updates.
+Backend
+1. `cd backend`
+2. `pip install -r requirements.txt`
+3. `uvicorn main:app --reload`
 
-### 📊 Data Portability & Tools
-- **CSV Export:** Download your entire search history as a CSV file for offline analysis.
-- **Geolocation:** Browser-level API integration for one-click "Current Location" search.
-- **AI-Driven Insights:** Contextual recommendations based on current weather conditions.
-
----
-
-## 🛠️ Technical Stack
-
-- **Frontend:** React.js, Tailwind CSS v4 (Glassmorphism design system).
-- **Backend:** FastAPI (Python 3.x), SQLAlchemy ORM.
-- **Database:** SQLite (Relational data persistence).
-- **API:** RESTful architecture with Axios.
+Frontend
+1. `cd frontend`
+2. `npm install`
+3. `npm run dev`
 
 ---
-
-## 📦 Local Installation & Setup
-
-### 1. Prerequisites
-- Node.js (v18+)
-- Python (3.9+)
-
-### 2. Backend Setup
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
-```
-
-### 3. Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev
-```
-The app will be available at `http://localhost:5173`.
-
----
-
- 💡 Design Philosophy
-The goal was to move beyond a standard "weather app" by focusing on **Product Management** values: 
-1. Utility: Is the data actionable? (Added Smart Insights).
-2. Engagement:Is it beautiful? (Implemented Glassmorphism).
-3. Control: Does the user own their data? (Implemented Update & Export functionality).
-
----
-Developed by **Hassan Khan** as part of the AI Engineer Intern Assessment.
-```
-
----
+Developed by [Your Name] for the PM Accelerator Team.
 
 
-
-**You're all set! Would you like me to review the video script one last time, or are you ready to hit 'Commit' and finish this?**
+You're all set! Would you like me to review the video script one last time, or are you ready to hit 'Commit' and finish this?
