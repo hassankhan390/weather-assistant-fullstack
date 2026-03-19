@@ -37,7 +37,7 @@ def geocode_location(location):
         
     return None, None
 
-OPENWEATHER_API_KEY = "e6035ae78173f618c659a7152a76b69c"
+OPENWEATHER_API_KEY = "YOUR API KEY"
 
 def fetch_weather(location, start_date, end_date):
     # Use the local geocode fix or the one from your utils
