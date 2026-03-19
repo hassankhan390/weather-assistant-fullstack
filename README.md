@@ -9,10 +9,6 @@ created for the Assessment of PM ACCELERATION
 
 A high-performance, full-stack weather application featuring **Glassmorphism UI** and **AI-driven insights**. Built for the AI Engineer Intern Technical Assessment.
 
-🚀 Live Demo & Video
-- **Demo Video:** [INSERT YOUR LOOM/YOUTUBE LINK HERE]
-- **Key Focus:** User Experience, Data Portability, and Full CRUD.
-
 ✨ Features
 - **Modern UI:** Midnight Purple Glassmorphism design inspired by premium weather apps.
 - **Full CRUD:**
